@@ -1,0 +1,96 @@
+<!--
+/*/////////////////////////////////////////////////////////////
+//                                                           //
+// JOStats is a product of Bab.stats                         //
+//                                                           //
+// Copyright (c) 2006 - 2007, Peter Jones (AKA Azrael)       //
+// All rights reserved.                                      //
+//                                                           //
+// Redistribution and use with or without modification, are  //
+// permitted provided that the following conditions are met: //
+//                                                           //
+// Redistributions must retain the above copyright notice.   //
+// File licence.txt must not be removed from the package.    //
+//                                                           //
+// Author        : Peter Jones (AKA Azrael)                  //
+// E-mail        : Email: p.jones188@btinternet.com          //
+// Website       : http://www.messiahgamingtools.com         //
+// Support       : http://www.babstats.com                   //
+//                                                           //
+/////////////////////////////////////////////////////////////*/
+//                                                           //
+// Updated Dec 2016 By Novahq.net <scott@novahq.net>         //
+// Standalone, PHP 5.6+ Compatible                           //
+//                                                           //
+/////////////////////////////////////////////////////////////*/
+-->
+<br />
+
+<table id="js_header">
+  <tr>
+	<td>Kill Stats  - {selcStatsType}</td>
+  </tr>
+</table>
+ 
+<br />
+ 
+<form id="js_menu" method="get" action="{formAction}">
+  <input type="hidden" name="section" value="{section}" />
+  Stats: 
+  <select id="js_button" name="condStats">
+    {statsType}
+  </select>
+  &nbsp;
+  <input type="hidden" name="condTeam" value="{condTeam}" />
+  <input type="hidden" name="condServer" value="{condServer}" />
+  <input type="hidden" name="condGame" value="{condGame}" />
+  <input type="submit" id="js_button" value="Go" />
+</form>
+
+<form id="js_menu" method="get" action="{formAction}">
+   <input type="hidden" name="section" value="{section}" />
+  Team: 
+  <select id="js_button" name="condTeam">
+    {teamList}
+  </select>
+  &nbsp;Gametype: 
+  <select id="js_button" name="condGame">
+    {gtypeList}
+  </select>
+  &nbsp;Server: 
+  <select id="js_button" name="condServer">
+    {serverList}
+  </select>
+  &nbsp;
+  <input type="hidden" name="condStats" value="{condStats}" />
+  <input id="js_button" type="submit" value="Go" />
+</form>
+
+<span id="js_multiList">{multiList}</span>
+
+<br />
+<br />
+  
+<table width="630" id="js_table">
+  <tr id="js_tableHead">
+	<td width="15">&nbsp;</td>
+	{headers}
+  </tr>
+  ---loop list start---
+  <tr id="{list_class}">
+	<td><div align="right">{list_num}</div></td>
+	<td title="{list_rName}: {list_rating}"><div align="center">
+	  <img src="./ranks/{list_rImage}" height="20" alt="{list_rName}" />
+	</div></td>
+	<td align="left"><a href="./?section=player_stats&pid={list_id}">{list_name}</a></td>
+	{layout}
+  </tr>
+  ---loop list end---
+</table>
+
+<span id="js_multiList">{multiList}</span>
+
+<br />
+<br />
+
+{joTips}

@@ -1,0 +1,105 @@
+Bab.stats JOStats PHP Serverside Scripts - Standalone Version
+---------------------------------------------------------------------------------------------------------
+2016.12.07- Version 1.7.9
+ - See Readme
+
+2007.04.15 - Version 1.7.8
+ - Added ingame Rank/Award Announcement Feature.
+ - Fixed Admin player search.
+
+2007.03.16 - Version 1.7.6
+ - Added Layout customization Feature.
+ - Added Missing Weapon images.
+ - Added New monthly Stats Handler.
+ - Fixed Awards stats showing 0.
+ - Fixed SQuads Listing.
+ - Fixed Rating System.
+ - Fixed Version checker on about page.
+ - Fixed some alignment issues with Internet Eplorer.
+ - Shortened Decimal numbers to show no more than 2 decimals.
+
+
+2007.02.22 - Version 1.6.7
+ - Added Support for IC Mod 4.1.2.
+
+
+2006.11.07 - Version 1.6.6
+ - Fixed page load slow down since last update.
+ - Fixed bug with all squad details shown the same.
+ - Fixed bug with scripts sometimes failing to connect to database.
+ - Fixed Gametype Levels and Ranks not working on player stats page.
+ - Fixed Bugs in compare script.
+ - Moved Update notification to display at the bottom of the about page only.
+
+
+2006.10.08 - Version 1.6.1
+ - Added update notification.
+ - Changed Rating System display.
+ - Fixed backup creation.
+ - Fixed error in weapon ratings calculation.
+ - Fixed incorrect list numbering.
+ - Fixed incorrect vehicles in Typhoon Rising.
+ - Fixed time format in monthly awards.
+ - Supplied Script (upgrade.php) to fix rating table.
+
+2006.09.30 - Version 1.5.4
+ - Added weapon awards to seperate page on main awards section.
+ - Added missing weapon images.
+ - Added missing Vehicle images.
+ - Added seperate list for maps with no images to the admin maps section.
+ - Fixed bug with adding game awards.
+ - Fixed "mysql_num_rows" error on main awards page.
+ - Supplied Script (upgrade.php) to fix various weapon name.
+
+2006.09.21 - Version 1.4.6
+ - Added "Color Picker" to Admin Styles section.
+ - Added Prune function to Admin Misc section.
+ - Added Merge function to Admin Misc section.
+ - Added "Last Played" stat to player stats page.
+ - Changed the way the scripts receive stats from the tracker.
+ - Fixed Weapon Awards section.
+ - Fixed Player Vehicle stats not showing.
+ - Fixed List Numbering of various stat lists.
+ - Supplied Script (upgrade.php) to alter awards table to accomodate Weapon Awards.
+ - Updated IC Mod weapons and vehicles to support V3
+
+2006.08.26 - Version 1.3.8
+ - Added missing vehicle and weapon images.
+ - Added missing Vehicle and weapon names.
+ - Added Weapon awards creation to admin section.
+ - Added Squad url and info to squad details page.
+ - Fixed unformatted zone time displaying on player stats page.
+ - Fixed problem with Logins combined for all servers.
+ - Fixed Monthly awards bug on new install.
+ - Fixed error with stats upload on Deathmatch.
+ - Fixed compare section not recognizing data in form fields.
+ - Fixed player search in admin section.
+ - Fixed squad info not showing up in squad edit page.
+ - Fixed Vehicle stats displaying 0 on the vehicle list page.
+ - Fixed reset.sql file.
+ - Supplied Script (upgrade.php) to fix incorrect weapon names and monthly awards.
+
+2006.08.20 - Version 1.2.9
+ - Added missing weapon images: L115a, M21, M_60, Minigun, Mortar, PKM and RPK74.
+ - Added "Exclude COOP" option to drop down box when when viewing stats by gametype.
+ - Added help content for config.php.
+ - Fixed problem with server restrictions not showing.
+ - Fixed new "player stats Div by zero" error.
+ - Fixed Multilist style on kill stats, player stats, maps, vehicles, weapons and squads pages.
+ - Made anchor tags optional, can be set to true or false via the config.php, please refer to 
+   the config.php help section in the admin area.
+
+2006.08.19 - Version 1.0.5
+ - fixed "headers already sent" error in admin section.
+ - Fixed Map images not displaying in servers page.
+ - Fixed "Div by zero" error on kill_stats page.
+ - Fixed "Div by zero" error on player_stats page.
+
+2006.08.19 - Version 1.0.1
+ - Fixed Bug with admin section not working.
+
+2006.08.18 - Version 1.0.0
+ - Public Release
+
+2006.08.08 - Version Beta
+ - Beta Release

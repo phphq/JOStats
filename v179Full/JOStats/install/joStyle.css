@@ -1,0 +1,313 @@
+/*/////////////////////////////////////////////////////////////
+//                                                           //
+// JOStats is a product of Bab.stats                         //
+//                                                           //
+// Copyright (c) 2006 - 2007, Peter Jones (AKA Azrael)       //
+// All rights reserved.                                      //
+//                                                           //
+// Redistribution and use with or without modification, are  //
+// permitted provided that the following conditions are met: //
+//                                                           //
+// Redistributions must retain the above copyright notice.   //
+// File licence.txt must not be removed from the package.    //
+//                                                           //
+// Author        : Peter Jones (AKA Azrael)                  //
+// E-mail        : Email: p.jones188@btinternet.com          //
+// Website       : http://www.messiahgamingtools.com         //
+// Support       : http://www.babstats.com                   //
+//                                                           //
+///////////////////////////////////////////////////////////////
+//                                                           //
+// Updated Dec 2016 By Novahq.net <scott@novahq.net>         //
+// Standalone, PHP 5.6+ Compatible                           //
+//                                                           //
+/////////////////////////////////////////////////////////////*/
+body {
+	background-color:#414142;
+}
+
+#js_menu {
+	font-size: 12px;
+	font-weight:bold;
+	font-family:Tahoma;
+	color:#FFFFFF;
+	text-align:center;
+	background-color: #181C32;
+	border-bottom:#62677f medium solid;
+	border-top:#161b33 medium solid;
+	border-left:#62677f medium solid;
+	border-right:#161b33 medium solid;
+}
+
+#js_menu2 {
+	font-size: 12px;
+	font-weight:bold;
+	font-family:Tahoma;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#161b33;
+    border-bottom:#62677f thin solid;
+	border-top:#161b33 thin solid;
+	border-left:#62677f thin solid;
+	border-right:#161b33 thin solid;
+}
+
+#js_info {
+	font-size: 10px;
+	font-family:Tahoma;
+	color:#FFFFFF;
+	text-align:left;
+	background-color:#161b33;
+    border-bottom:#62677f thin solid;
+	border-top:#161b33 thin solid;
+	border-left:#62677f thin solid;
+	border-right:#161b33 thin solid;
+}
+
+#js_menu3 {
+	font-size: 12px;
+	font-weight:bold;
+	font-family:Tahoma;
+	color:#FFFFFF;
+	text-align:center;
+	background-color:#3d5c8b;
+    border-bottom:#62677f thin solid;
+	border-top:#161b33 thin solid;
+	border-left:#62677f thin solid;
+	border-right:#161b33 thin solid;
+}
+
+#js_menu a:link{
+	color:#FFFFFF;
+}
+
+#js_menu a:hover{
+	color:#FF0000;
+}
+
+#js_menu a:visited{
+	color:#FFFFFF;
+}
+
+#js_menu2 a:link{
+	color:#FFFFFF;
+}
+
+#js_menu2 a:hover{
+	color:#FF0000;
+}
+
+#js_menu2 a:visited{
+	color:#FFFFFF;
+}
+
+#js_info a:link{
+	color:#FFFFFF;
+}
+
+#js_info a:hover{
+	color:#FF0000;
+}
+
+#js_info a:visited{
+	color:#FFFFFF;
+}
+
+#js_header {
+	font-weight:bold;
+	font-family:Tahoma;
+	color:#FFFFFF;
+	text-align:center;
+}
+
+#js_body {
+	background-color: #414142;
+}
+
+#js_top {
+	background-color: #202648;
+	font-family:Tahoma;
+	color:#FFFFFF;
+}
+
+#js_center {
+	background-color: #343D69;
+}
+
+#js_tableHead {
+	background-color:#202648;
+	font-weight:bold;
+	font-family:Tahoma;
+	color:#FFFFFF;
+}
+
+#js_table {
+	color: #FFFFFF;
+}
+
+#js_table a:link {
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#js_table a:visited {
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#js_row1 {
+	background-color: #366ab6;
+	font-family:Tahoma;
+	color:#FFFFFF;
+}
+
+#js_row2 {
+	background-color: #325c9e;
+	font-family:Tahoma;
+	color:#FFFFFF;
+}
+
+#js_row3 {
+	background-color:#161b33;
+    border-bottom:#62677f thin solid;
+	border-top:#161b33 thin solid;
+	border-left:#62677f thin solid;
+	border-right:#161b33 thin solid;
+	font-family:Tahoma;
+	font-size:11px;
+	color:#FFFFFF;
+}
+
+#infoBox {
+	background-color: #181C32;
+	color:#FF0000;
+}
+
+#js_text {
+	color:#FFFFFF;
+	font-family:Tahoma;
+}
+
+#js_button {
+	background-color:#FFFFFF;
+	font-family:Tahoma;
+	color:#000000;
+	font-size: 13px;
+}
+
+#js_boxleft {
+	background-color:#333333;
+	border-bottom:#62677f medium solid;
+	border-top:#000000 medium solid;
+	border-left:#62677f medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxright {
+	background-color:#333333;
+	border-bottom:#62677f medium solid;
+	border-top:#000000 medium solid;
+	border-right:#000000 medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxtopleft {
+	background-color:#333333;
+	border-top:#000000 medium solid;
+	border-left:#62677f medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxctrleft {
+	background-color:#333333;
+	border-left:#62677f medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxbotleft {
+	background-color:#333333;
+	border-bottom:#62677f medium solid;
+	border-left:#62677f medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxtopright {
+	background-color:#333333;
+	border-top:#000000 medium solid;
+	border-right:#000000 medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxctrright {
+	background-color:#333333;
+	border-right:#000000 medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxbotright {
+	background-color:#333333;
+	border-bottom:#62677f medium solid;
+	border-right:#000000 medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxtop {
+	background-color:#333333;
+	border-top:#000000 medium solid;
+	border-left:#62677f medium solid;
+	border-right:#000000 medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+
+#js_boxbot {
+	background-color:#333333;
+	border-bottom:#62677f medium solid;
+	border-left:#62677f medium solid;
+	border-right:#000000 medium solid;
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-size: 12px;
+	text-align:center;
+}
+
+#js_aboutText{
+	color:#FFFFFF;
+	font-family:Tahoma;
+	font-weight:normal;
+}

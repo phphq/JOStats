@@ -1,0 +1,28 @@
+*********************************************************************
+*
+* Bab.stats JOStats PHP Serverside Scripts
+*
+* Version: 1.7.8 (Standalone)
+* 
+* Copyright (c) 2006-2007, Peter Jones
+* All rights reserved
+* 
+* Author : Peter Jones a.k.a Azrael
+* E-mail : p.jones188@btinternet.com
+* Website: http://www.gamers-central.com
+* Support: http://www.babstats.com
+*
+*
+*********************************************************************
+
+
+Bab.stats JOStats PHP Serverside Scripts is free software, 
+released under GNU GPL Licence version 2.0 (see "GNU License.txt" for details)
+
+Disclaimer:
+This software is provided "as is" and free of charge, no warranty either implied or 
+expressed is applicable. The author takes no responsibility for any damage to your equipment 
+or any loss of data however so caused. You expressly acknowledge and agree that use of this 
+software or any of its components is at your sole risk. Under no circumstances shall the 
+author be liable for any incidental, direct or consequential damages arising out of this 
+Licence.
