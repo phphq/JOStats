@@ -95,8 +95,3 @@ $joPass
 Upload the entire package to your webserver **EXCEPT** the /JOStats/install/ folder.
 That should be it, it should now be working. 
 Update your BMT and what not to the new website path.
-
-
-
-
-
